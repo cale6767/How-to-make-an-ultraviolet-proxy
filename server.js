@@ -73,3 +73,4 @@ function shutdown() {
 server.listen({
     port,
 });
+location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
